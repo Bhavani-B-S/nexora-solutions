@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXORA DIGI SOLUTIONS | ERP &amp; Business Digital Solutions</title>
+<link rel="icon" type="image/png" href="assets/img1.png">
+<meta name="description" content="NEXORA DIGI SOLUTIONS delivers ERP, business automation, digital marketing, digital transformation and IT consulting for growing businesses. Simplify today. Scale tomorrow.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav" id="siteNav">
+  <div class="wrap nav-inner">
+    <a href="#home" class="brand">
+      <img class="brand-logo" src="assets/img1.png" alt="Nexora Digi Solutions">
+    </a>
+    <nav class="links" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#industries">Industries</a>
+      <a href="#work">Our Work</a>
+      <a href="#team">Team</a>
+      <a href="#why">Why Nexora</a>
+      <a href="#reviews">Ratings</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <div class="nav-cta">
+        <a href="tel:636172894" class="btn btn-ghost btn-sm">Call Us</a>
+        <a href="#contact" class="btn btn-primary btn-sm">Get Started</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+  <div class="mm-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#industries">Industries</a>
+    <a href="#work">Our Work</a>
+    <a href="#team">Team</a>
+    <a href="#why">Why Nexora</a>
+    <a href="#reviews">Ratings</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="mm-actions">
+    <a href="tel:636172894" class="btn btn-ghost">Call Us</a>
+    <a href="#contact" class="btn btn-primary">Get Started</a>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <canvas class="hero-shader" id="heroShader" aria-hidden="true"></canvas>
+  <div class="hero-shader-veil" aria-hidden="true"></div>
+  <div class="hero-bgphoto" id="heroBgPhoto" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-glow-2" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <div>
+      <span class="eyebrow-tag"><span class="dot"></span>ERP &amp; Business Digital Solutions</span>
+      <h1>Simplify today.<br>Scale <span class="grad">tomorrow.</span></h1>
+      <p class="lead">Nexora Digi Solutions transforms how businesses operate — with intelligent ERP, automation and digital platforms built to simplify what slows you down now, and scale with you as you grow.</p>
+      <p class="hero-sub">Every engagement starts with how your team already works day to day — then we build the ERP, automation and digital platforms that make it run smoother, not the other way around.</p>
+      <ul class="hero-highlights">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg><span><strong>One connected system</strong> for finance, inventory and day-to-day operations</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Automation</strong> that takes repetitive manual work off your team's plate</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg><span><strong>A local, hands-on team</strong> based right here in Bengaluru</span></li>
+      </ul>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+        <a href="#solutions" class="btn btn-ghost">Explore Solutions</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>8+</strong><span>Solution areas</span></div>
+        <div><strong>6</strong><span>Industries served</span></div>
+        <div><strong>100%</strong><span>Business-first approach</span></div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-photo-frame">
+        <img src="assets/img2.png" alt="" loading="eager">
+        <div class="hero-photo-overlay"></div>
+        <div class="hero-photo-badge">
+          <span class="dot"></span>
+          <div><strong>Connected Platform</strong><span>ERP · CRM · Analytics · Security · AI</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRUST STRIP ================= -->
+<div class="rv-strip" id="rvStrip" aria-live="polite">
+  <span class="stars" id="rvStripStars" style="--sz:18px"></span>
+  <span id="rvStripText">Client ratings</span>
+  <a href="#reviews" id="rvStripLink">Rate Nexora</a>
+</div>
+
+<section class="trust">
+  <div class="wrap trust-grid">
+    <div class="trust-item reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+      <div><h4>Smart Technology</h4><p>Modern tools, applied well</p></div>
+    </div>
+    <div class="trust-item reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.09A1.7 1.7 0 0 0 9 19.36a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.09A1.7 1.7 0 0 0 4.64 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34H9a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87V9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1z"/></svg>
+      <div><h4>Business Automation</h4><p>Fewer manual steps</p></div>
+    </div>
+    <div class="trust-item reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+      <div><h4>Scalable Solutions</h4><p>Built to grow with you</p></div>
+    </div>
+    <div class="trust-item reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+      <div><h4>Dedicated Support</h4><p>A team that stays close</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section about" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <span class="kicker">About Nexora</span>
+      <h2>Technology that works the way your business already does</h2>
+      <div class="about-copy">
+        <p>Nexora Digi Solutions is a technology partner for growing businesses — we step in where operations feel scattered across tools and manual processes, and bring it together into one clear system. Every solution starts with understanding how a client actually runs, then we design around that.</p>
+        <p>Our work spans ERP, automation, custom software and IT consulting, but the goal never changes: take the friction out of daily operations and put the right technology behind future growth.</p>
+        <p>Our websites and web applications are built in-house by <strong>YL Developers</strong>, our dedicated web development team — so every platform we ship stays connected to the same standards of quality and support as the rest of our work.</p>
+      </div>
+      <ul class="about-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Solutions shaped around real workflows, not generic templates</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Architecture that scales as your team and volume grow</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Ongoing support long after the first deployment</li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <div class="flow">
+        <div class="flow-row">
+          <div class="flow-node">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <h4>People</h4>
+          </div>
+          <div class="flow-arrow">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </div>
+          <div class="flow-node">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>
+            <h4>Process</h4>
+          </div>
+        </div>
+        <div class="flow-row" style="margin-top:18px;">
+          <div class="flow-node">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9h6v6H9z"/></svg>
+            <h4>Technology</h4>
+          </div>
+          <div class="flow-arrow">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </div>
+          <div class="flow-node">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+            <h4>Growth</h4>
+          </div>
+        </div>
+      </div>
+      <div class="flow-outcome">
+        <span>The result</span>
+        <strong>A business that runs lighter and scales faster</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Services</span>
+      <h2>Everything a growing business needs from one technology partner</h2>
+      <p>Each engagement starts with your operations, not our product list.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="svc-card reveal">
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <h3>ERP Solutions</h3>
+        <p>Unified systems for finance, inventory, sales and operations — one source of truth across the business.</p>
+        <a href="#contact" class="svc-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div>
+        <h3>Business Automation</h3>
+        <p>Automate approvals, reporting and repetitive tasks so your team can focus on decisions, not data entry.</p>
+        <a href="#contact" class="svc-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18 9 9 0 0 0 0-18"/><path d="M3 12h18"/></svg></div>
+        <h3>Digital Transformation</h3>
+        <p>A clear, phased path from legacy processes to modern digital operations — with minimal disruption.</p>
+        <a href="#contact" class="svc-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+        <h3>IT Consulting &amp; Support</h3>
+        <p>Independent guidance on infrastructure, tooling and technology decisions, backed by responsive support.</p>
+        <a href="#contact" class="svc-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h3>Custom Software Solutions</h3>
+        <p>Purpose-built applications for the workflows off-the-shelf software was never designed to handle.</p>
+        <a href="#contact" class="svc-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+        <h3>Website &amp; Web Application Development</h3>
+        <p>Fast, responsive websites and web applications built to represent and run your business well online.</p>
+        <a href="#contact" class="svc-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+        <h3>Business Process Solutions</h3>
+        <p>Mapping, redesigning and documenting operational processes so growth doesn't mean more chaos.</p>
+        <a href="#contact" class="svc-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11l18-5v14L3 15v-4z"/><path d="M7 15v4a2 2 0 0 0 2 2h1v-6"/></svg></div>
+        <h3>Digital Marketing</h3>
+        <p>SEO, social media, paid ads and content — across Google, Meta, Instagram, LinkedIn and every platform your customers actually use.</p>
+        <a href="#contact" class="svc-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOLUTIONS ================= -->
+<section class="section solutions" id="solutions">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Solutions</span>
+      <h2>Built around what your business actually runs on</h2>
+      <p>Six core areas, matched to the systems most businesses depend on every day.</p>
+    </div>
+    <div class="sol-wrap reveal">
+      <div class="sol-tabs" id="solTabs" role="tablist" aria-label="Solution areas">
+        <button class="sol-tab active" data-i="0"><span>ERP &amp; Operations</span><span class="n">01</span></button>
+        <button class="sol-tab" data-i="1"><span>Finance &amp; Billing</span><span class="n">02</span></button>
+        <button class="sol-tab" data-i="2"><span>Customer Management</span><span class="n">03</span></button>
+        <button class="sol-tab" data-i="3"><span>Workforce Management</span><span class="n">04</span></button>
+        <button class="sol-tab" data-i="4"><span>Business Analytics</span><span class="n">05</span></button>
+        <button class="sol-tab" data-i="5"><span>Digital Platforms</span><span class="n">06</span></button>
+      </div>
+      <div class="sol-panel-wrap">
+        <div>
+          <div class="sol-panel active" data-i="0">
+            <h3>ERP &amp; Operations</h3>
+            <p>Bring inventory, procurement, production and daily operations into a single connected system.</p>
+            <div class="sol-tags"><span>Inventory</span><span>Procurement</span><span>Order management</span><span>Multi-location</span></div>
+          </div>
+          <div class="sol-panel" data-i="1">
+            <h3>Finance &amp; Billing</h3>
+            <p>Accurate, real-time visibility into invoicing, expenses and cash flow across the business.</p>
+            <div class="sol-tags"><span>Invoicing</span><span>Expense tracking</span><span>Payments</span><span>Financial reporting</span></div>
+          </div>
+          <div class="sol-panel" data-i="2">
+            <h3>Customer Management</h3>
+            <p>A clear view of every customer relationship, from first enquiry through to long-term account.</p>
+            <div class="sol-tags"><span>Lead tracking</span><span>Support desk</span><span>Client history</span><span>Communication logs</span></div>
+          </div>
+          <div class="sol-panel" data-i="3">
+            <h3>Workforce Management</h3>
+            <p>Attendance, scheduling and performance tools that keep teams organised as headcount grows.</p>
+            <div class="sol-tags"><span>Attendance</span><span>Scheduling</span><span>Payroll data</span><span>Performance</span></div>
+          </div>
+          <div class="sol-panel" data-i="4">
+            <h3>Business Analytics</h3>
+            <p>Dashboards and reporting that turn operational data into decisions leadership can act on.</p>
+            <div class="sol-tags"><span>Dashboards</span><span>KPI tracking</span><span>Forecasting</span><span>Custom reports</span></div>
+          </div>
+          <div class="sol-panel" data-i="5">
+            <h3>Digital Platforms</h3>
+            <p>Customer-facing websites, portals and applications that extend the business online.</p>
+            <div class="sol-tags"><span>Web platforms</span><span>Customer portals</span><span>Integrations</span><span>Mobile-ready</span><span>Digital marketing</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INDUSTRIES ================= -->
+<section class="section" id="industries">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Industries</span>
+      <h2>Technology shaped by the sector it runs in</h2>
+      <p>Every industry runs differently. Our solutions are configured, not forced, to fit.</p>
+    </div>
+    <div class="ind-grid">
+      <div class="ind-card reveal"><span class="num">01</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9l1-5h16l1 5"/><path d="M4 9v11h16V9"/><path d="M9 20v-6h6v6"/></svg>
+        <h4>Retail</h4><p>Inventory, billing and store operations in sync.</p>
+      </div>
+      <div class="ind-card reveal"><span class="num">02</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 10L12 4 2 10l10 6 10-6z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>
+        <h4>Education</h4><p>Admissions, records and communication in one place.</p>
+      </div>
+      <div class="ind-card reveal"><span class="num">03</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M19 14c1.5-1.5 3-3.5 3-6a4 4 0 0 0-7-2.7A4 4 0 0 0 8 5.3 4 4 0 0 0 2 8c0 2.5 1.5 4.5 3 6l7 7 7-7z"/></svg>
+        <h4>Healthcare</h4><p>Patient records and scheduling, kept organised.</p>
+      </div>
+      <div class="ind-card reveal"><span class="num">04</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 20h20"/><path d="M4 20V10l5-3v13"/><path d="M13 20V6l5-2v16"/></svg>
+        <h4>Manufacturing</h4><p>Production tracking from raw material to dispatch.</p>
+      </div>
+      <div class="ind-card reveal"><span class="num">05</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+        <h4>Professional Services</h4><p>Client work, billing and time tracked with clarity.</p>
+      </div>
+      <div class="ind-card reveal"><span class="num">06</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+        <h4>Startups &amp; SMEs</h4><p>Lean systems that scale as the business does.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OUR WORK ================= -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="kicker">Our Work</span>
+      <h2>Projects built by Nexora Digi Solutions</h2>
+      <p>Live examples of what we deliver for businesses.</p>
+    </div>
+    <div class="wk-wrap reveal" id="wkRoot" role="region" aria-roledescription="carousel" aria-label="Projects built by Nexora Digi Solutions" tabindex="0">
+      <div class="wk-grid">
+        <div class="wk-stack" id="wkStack"></div>
+        <div class="wk-body">
+          <div class="wk-text" id="wkText" aria-live="polite"></div>
+          <div class="wk-ctrl" id="wkCtrl">
+            <!-- The link is set from admin.html (or hard-code a fallback in DEFAULT_LINK in the "Our Work" script near the end of this file) -->
+            <a class="btn btn-gold is-off" id="vmartLink" href="#work" aria-disabled="true" rel="noopener">Link coming soon</a>
+            <div class="wk-nav" id="wkNav">
+              <button type="button" class="wk-btn" id="wkPrev" aria-label="Previous project"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg></button>
+              <button type="button" class="wk-btn" id="wkNext" aria-label="Next project"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+              <span class="wk-count" id="wkCount" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section class="section" id="team">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Our Team</span>
+      <h2>One company, working as connected teams</h2>
+      <p>Every project moves through the same specialists, not a rotating cast of freelancers.</p>
+    </div>
+    <div class="team-grid reveal">
+      <div class="team-card">
+        <div class="team-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h4>Web Development Team</h4>
+        <p>Builds and maintains the ERP systems, custom software, websites and web applications behind every project.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11l18-5v14L3 15v-4z"/><path d="M7 15v4a2 2 0 0 0 2 2h1v-6"/></svg></div>
+        <h4>Marketing Team</h4>
+        <p>Runs SEO, social media, paid campaigns and content across every platform to help clients get found and grow.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <h4>Management Team</h4>
+        <p>Oversees planning, timelines and client communication so every engagement stays on track end to end.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+        <h4>Support &amp; Consulting Team</h4>
+        <p>Handles IT consulting, ongoing support and troubleshooting well after a system goes live.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE ================= -->
+<section class="section why" id="why">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Why Nexora</span>
+      <h2>A technology partner, not just a vendor</h2>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+        <h4>Business-focused technology</h4><p>Every recommendation is judged by business impact first.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        <h4>Customised solutions</h4><p>Configured around how your team already works.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>
+        <h4>Scalable architecture</h4><p>Systems built to handle more, not be replaced later.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        <h4>Modern technology</h4><p>Current tools and practices, applied practically.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg>
+        <h4>Transparent approach</h4><p>Clear timelines, clear pricing, no surprises.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+        <h4>Long-term support</h4><p>We stay involved well past the initial rollout.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section class="section" id="process">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="kicker">Our Process</span>
+      <h2>A straightforward path from problem to platform</h2>
+    </div>
+    <div class="proc-track reveal" id="procTrack">
+      <div class="proc-line" id="procLine"></div>
+      <div class="proc-step" data-i="0"><div class="proc-dot">01</div><h4>Discover</h4><p>We study how your business runs today and where it slows down.</p></div>
+      <div class="proc-step" data-i="1"><div class="proc-dot">02</div><h4>Plan</h4><p>A clear roadmap of the right solutions, in the right order.</p></div>
+      <div class="proc-step" data-i="2"><div class="proc-dot">03</div><h4>Build</h4><p>We configure, develop and integrate — with regular check-ins.</p></div>
+      <div class="proc-step" data-i="3"><div class="proc-dot">04</div><h4>Grow</h4><p>Ongoing support and refinement as your business scales.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section reviews" id="reviews">
+  <div class="wrap">
+    <div class="rv-showcase reveal">
+      <div class="rv-head">
+        <h2>What our clients say</h2>
+        <p>Real feedback from businesses we have worked with.</p>
+      </div>
+      <div class="rv-list" id="rvList"></div>
+      <div class="rv-empty" id="rvEmpty">No written reviews yet. Be the first to share your experience below.</div>
+    </div>
+    <div class="form-card rv-form reveal">
+      <h3>Rate your experience with Nexora</h3>
+      <p class="sub">Your rating helps other businesses decide. It takes under a minute.</p>
+      <form id="rvForm" novalidate>
+        <div class="rv-pick" id="rvPick" role="radiogroup" aria-label="Your rating out of 5"></div>
+        <div class="rv-pick-label" id="rvPickLabel">Tap a star to rate</div>
+        <div class="form-row">
+          <div class="field"><label for="rvName">Name</label><input id="rvName" type="text" maxlength="60" placeholder="Your name" required></div>
+          <div class="field"><label for="rvCompany">Company <span style="opacity:.6">(optional)</span></label><input id="rvCompany" type="text" maxlength="60" placeholder="Company name"></div>
+        </div>
+        <div class="field" style="margin-bottom:6px;">
+          <label for="rvText">Your review <span style="opacity:.6">(optional)</span></label>
+          <textarea id="rvText" maxlength="500" placeholder="Tell us what it was like working with Nexora"></textarea>
+        </div>
+        <input class="rv-hp" id="rvHp" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="button" class="btn btn-primary" style="width:100%;margin-top:18px;" id="rvSubmit">Submit rating</button>
+        <div class="rv-err" id="rvErr" role="alert"></div>
+        <div class="form-success" id="rvOk">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <span id="rvOkText">Thank you for your rating!</span>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="ctaHero">
+  <div class="cta-particles" aria-hidden="true"><div class="grid" id="ctaParticleGrid"></div></div>
+  <div class="wrap">
+    <span class="kicker reveal">Let's talk</span>
+    <h2 class="reveal">Ready to take your business to the next level?</h2>
+    <p class="reveal">Tell us where things feel slow or disconnected — we'll show you what a simpler setup looks like.</p>
+    <a href="#contact" class="btn btn-gold reveal">Talk to Nexora</a>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Contact</span>
+      <h2>Start the conversation</h2>
+      <p>Share a few details about your business and we'll get back to you shortly.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Get in touch</h3>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          <div><h5>Founder</h5><p>Prajwal P</p></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+          <div><h5>Phone</h5><a href="tel:636172894">636172894</a></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <div><h5>Email</h5><a href="mailto:nexoradigisolutions@gmail.com">nexoradigisolutions@gmail.com</a></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><h5>Address</h5><p>#123, 1st Main Road, Bagalagunte, Bengaluru - 560073</p></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+          <div><h5>Website</h5><p>www.nexoradigisolutions.in</p></div>
+        </div>
+        <div class="map-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Map — Bagalagunte, Bengaluru</span>
+        </div>
+      </div>
+
+      <form class="form-card reveal" id="contactForm">
+        <div class="form-row">
+          <div class="field"><label for="fName">Name</label><input id="fName" type="text" placeholder="Your full name" required></div>
+          <div class="field"><label for="fCompany">Company</label><input id="fCompany" type="text" placeholder="Company name"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="fPhone">Phone</label><input id="fPhone" type="tel" placeholder="Phone number" required></div>
+          <div class="field"><label for="fEmail">Email</label><input id="fEmail" type="email" placeholder="you@company.com" required></div>
+        </div>
+        <div class="field" style="margin-bottom:18px;">
+          <label for="fService">Service required</label>
+          <select id="fService">
+            <option>ERP Solutions</option>
+            <option>Business Automation</option>
+            <option>Digital Transformation</option>
+            <option>IT Consulting &amp; Support</option>
+            <option>Custom Software Solutions</option>
+            <option>Website &amp; Web Application Development</option>
+            <option>Business Process Solutions</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field" style="margin-bottom:6px;">
+          <label for="fMessage">Message</label>
+          <textarea id="fMessage" placeholder="Tell us a little about what you're looking to solve"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;margin-top:18px;">Submit</button>
+        <p class="form-note">We typically respond within one business day.</p>
+        <div class="form-success" id="formSuccess">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Thanks — your message has been received. We'll be in touch shortly.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="yl-panel" aria-label="Projects built by YL Developers">
+      <div class="yl-head">
+        <span class="yl-tag">Web Development Team</span>
+        <strong>YL Developers</strong>
+        <span class="yl-note">Websites and web applications built for our clients</span>
+      </div>
+      <div class="yl-marquee"><div class="yl-track" id="ylTrack"></div></div>
+    </div>
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#home" class="brand">
+          <img class="brand-logo" src="assets/img1.png" alt="Nexora Digi Solutions">
+        </a>
+        <p>ERP and business digital solutions for companies that want to simplify today and scale tomorrow.</p>
+        <div class="social-row">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2 3.76-2 4 0 4.74 2.6 4.74 6v6.3H17v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96v5.7H9z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.7c0-.9.3-1.6 1.6-1.6h1.6V3.2C15.9 3.1 14.9 3 13.7 3c-2.5 0-4.2 1.5-4.2 4.3v2.5H6.8v3.2h2.7v8z"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Navigate</h5>
+        <ul>
+          <li><a class="underline-link" href="#about">About</a></li>
+          <li><a class="underline-link" href="#services">Services</a></li>
+          <li><a class="underline-link" href="#solutions">Solutions</a></li>
+          <li><a class="underline-link" href="#industries">Industries</a></li>
+          <li><a class="underline-link" href="#work">Our Work</a></li>
+          <li><a class="underline-link" href="#team">Team</a></li>
+          <li><a class="underline-link" href="#reviews">Ratings</a></li>
+          <li><a class="underline-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a class="underline-link" href="#services">ERP Solutions</a></li>
+          <li><a class="underline-link" href="#services">Business Automation</a></li>
+          <li><a class="underline-link" href="#services">Digital Transformation</a></li>
+          <li><a class="underline-link" href="#services">IT Consulting</a></li>
+          <li><a class="underline-link" href="#services">Custom Software</a></li>
+          <li><a class="underline-link" href="#services">Digital Marketing</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a class="underline-link" href="tel:636172894">636172894</a></li>
+          <li><a class="underline-link" href="mailto:nexoradigisolutions@gmail.com">nexoradigisolutions@gmail.com</a></li>
+          <li><a class="underline-link" href="#contact">Bagalagunte, Bengaluru - 560073</a></li>
+          <li><a class="underline-link" href="#contact">www.nexoradigisolutions.in</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span id="year"></span> Nexora Digi Solutions. All rights reserved.</span>
+      <div class="legal">
+        <a class="underline-link" href="#">Privacy Policy</a>
+        <a class="underline-link" href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= ECOSYSTEM ================= -->
+<section class="section eco" id="ecosystem">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="kicker eco-kicker">Explore Our Ecosystem</span>
+    </div>
+    <div class="eco-grid reveal">
+      <a href="#services" class="eco-card"><span class="eco-t">ERP Solutions</span><span class="eco-c">ERP</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Inventory Management</span><span class="eco-c">ERP</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Orders &amp; Procurement</span><span class="eco-c">ERP</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Multi-location Operations</span><span class="eco-c">ERP</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Invoicing &amp; Billing</span><span class="eco-c">Finance</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Expense Tracking</span><span class="eco-c">Finance</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Payment Tracking</span><span class="eco-c">Finance</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Financial Reporting</span><span class="eco-c">Finance</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Lead Tracking</span><span class="eco-c">CRM</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Support Desk</span><span class="eco-c">CRM</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Client History</span><span class="eco-c">CRM</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Attendance &amp; Scheduling</span><span class="eco-c">HR</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Payroll Data</span><span class="eco-c">HR</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Business Dashboards</span><span class="eco-c">Analytics</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">KPI Tracking</span><span class="eco-c">Analytics</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Custom Reports</span><span class="eco-c">Analytics</span></a>
+      <a href="#services" class="eco-card"><span class="eco-t">Website Development</span><span class="eco-c">Digital</span></a>
+      <a href="#solutions" class="eco-card"><span class="eco-t">Customer Portals</span><span class="eco-c">Digital</span></a>
+      <a href="#services" class="eco-card"><span class="eco-t">Digital Marketing</span><span class="eco-c">Digital</span></a>
+      <a href="#services" class="eco-card"><span class="eco-t">Business Automation</span><span class="eco-c">Services</span></a>
+      <a href="#services" class="eco-card"><span class="eco-t">Digital Transformation</span><span class="eco-c">Services</span></a>
+      <a href="#services" class="eco-card"><span class="eco-t">IT Consulting &amp; Support</span><span class="eco-c">Services</span></a>
+      <a href="#services" class="eco-card"><span class="eco-t">Custom Software</span><span class="eco-c">Services</span></a>
+      <a href="#services" class="eco-card"><span class="eco-t">Business Process Solutions</span><span class="eco-c">Services</span></a>
+      <a href="#industries" class="eco-card"><span class="eco-t">Retail</span><span class="eco-c">Industry</span></a>
+      <a href="#industries" class="eco-card"><span class="eco-t">Education</span><span class="eco-c">Industry</span></a>
+      <a href="#industries" class="eco-card"><span class="eco-t">Healthcare</span><span class="eco-c">Industry</span></a>
+      <a href="#industries" class="eco-card"><span class="eco-t">Manufacturing</span><span class="eco-c">Industry</span></a>
+      <a href="#industries" class="eco-card"><span class="eco-t">Professional Services</span><span class="eco-c">Industry</span></a>
+      <a href="#industries" class="eco-card"><span class="eco-t">Startups &amp; SMEs</span><span class="eco-c">Industry</span></a>
+    </div>
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+<script src="script2.js"></script>
+
+</body>
+</html>
