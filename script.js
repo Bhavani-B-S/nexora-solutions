@@ -520,7 +520,11 @@ void main() {
 
   /* 2) Shared visitor ratings (optional). Fill in your Firebase web config to collect
         ratings from all visitors. Leave blank to keep ratings in the visitor's own browser only. */
-  var FIREBASE={apiKey:'',projectId:'',collection:'ratings'};
+  var FIREBASE={
+  apiKey:'AIzaSyCfv54S1FL9ofyd9muz9PK_Eba4FYPTTyU',
+  projectId:'nexora-digi-solutions',
+  collection:'ratings'
+};
 
   var LABELS=['','Poor','Fair','Good','Very good','Excellent'];
   var STAR='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8L12 2.5z"/></svg>';
