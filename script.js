@@ -669,3 +669,76 @@ void main() {
     try{ var l=localStorage.getItem(LS); if(l) apply(l); }catch(e){}
   }
 })();
+/* NEXORA: Firebase customer content connection */
+(function () {
+  const PROJECT_ID = "nexora-digi-solutions";
+  const API_KEY = "AIzaSyCfv54S1FL9ofyd9muz9PK_Eba4FYPTTyU";
+
+  async function loadHomeContent() {
+    try {
+      const url =
+        "https://firestore.googleapis.com/v1/projects/" +
+        PROJECT_ID +
+        "/databases/(default)/documents/home/content?key=" +
+        API_KEY;
+
+      const response = await fetch(url);
+
+      if (!response.ok) {
+        console.warn(
+          "Nexora Firebase Home read failed:",
+          response.status
+        );
+        return;
+      }
+
+      const result = await response.json();
+      const fields = result.fields || {};
+
+      function getText(name) {
+        const field = fields[name];
+        return field ? (field.stringValue || "") : "";
+      }
+
+      const heading = document.querySelector("#home h1");
+      const description = document.querySelector("#home .lead");
+
+      if (fields.visible && fields.visible.booleanValue === false) {
+        console.info("Nexora Home content is hidden in Firebase.");
+        return;
+      }
+
+      if (heading && getText("heading")) {
+        heading.textContent = getText("heading");
+
+        const heading2 = getText("heading2");
+        const highlight = getText("highlight");
+
+        if (heading2 || highlight) {
+          heading.appendChild(document.createElement("br"));
+
+          if (heading2) {
+            heading.appendChild(document.createTextNode(heading2 + " "));
+          }
+
+          if (highlight) {
+            const span = document.createElement("span");
+            span.className = "grad";
+            span.textContent = highlight;
+            heading.appendChild(span);
+          }
+        }
+      }
+
+      if (description && getText("description")) {
+        description.textContent = getText("description");
+      }
+
+      console.info("Nexora Firebase Home content loaded.");
+    } catch (error) {
+      console.error("Nexora Firebase connection error:", error);
+    }
+  }
+
+  loadHomeContent();
+})();
